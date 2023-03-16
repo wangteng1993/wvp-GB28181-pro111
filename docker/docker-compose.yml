@@ -33,7 +33,7 @@ services:
     environment:
       TZ: "Asia/Shanghai"
       # [必须修改] 本机的IP
-      WVP_HOST: 172.18.0.61
+      WVP_HOST: 127.0.0.1
       WVP_PWD: aseqw_+hiy123
       WVP_DOMAIN: 6101130049
       WVP_ID: 61011300490000000001

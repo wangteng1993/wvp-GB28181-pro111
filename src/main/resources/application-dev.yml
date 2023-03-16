@@ -84,3 +84,13 @@ media:
 # [可选] 日志配置, 一般不需要改
 logging:
   config: classpath:logback-spring-local.xml
+
+
+# mybatis
+mybatis-plus:
+  configuration:
+    cache-enabled: true
+    use-generated-keys: true
+    default-executor-type: REUSE
+    use-actual-param-name: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

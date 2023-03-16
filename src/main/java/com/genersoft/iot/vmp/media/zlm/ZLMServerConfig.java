@@ -38,7 +38,7 @@ public class ZLMServerConfig {
     private String ip;
 
     private String sdpIp;
-
+    @JSONField(name = "rtc.externIP")
     private String streamIp;
 
     private String hookIp;
